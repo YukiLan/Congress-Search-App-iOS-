@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.2.0)
+  - FontAwesome.swift (1.0.0)
+  - SlideMenuControllerSwift (3.0.0)
+  - SwiftSpinner (1.1.0)
+  - SwiftyJSON (3.1.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - FontAwesome.swift
+  - SlideMenuControllerSwift
+  - SwiftSpinner
+  - SwiftyJSON (~> 3.1.1)
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  FontAwesome.swift: 2d32a3d62195343c2004b7c9043294ed2948553a
+  SlideMenuControllerSwift: 9c0a84f9a3fba51681debd7be77617094562ebcc
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+
+PODFILE CHECKSUM: 3ef58c25183d19aade2672cc3a53a22b2424fd49
+
+COCOAPODS: 1.1.1

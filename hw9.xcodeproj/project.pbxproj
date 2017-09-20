@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32310B9E1DEFA5D300A03820 /* LegisSenateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310B9D1DEFA5D300A03820 /* LegisSenateDetailViewController.swift */; };
+		32310BA01DEFA86600A03820 /* BillActiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310B9F1DEFA86600A03820 /* BillActiveDetailViewController.swift */; };
+		32310BA21DEFC36100A03820 /* BillNewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310BA11DEFC36100A03820 /* BillNewDetailViewController.swift */; };
+		32310BA41DEFE88400A03820 /* CommiHouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310BA31DEFE88400A03820 /* CommiHouseDetailViewController.swift */; };
+		32310BA61DEFEF5E00A03820 /* CommiSenateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310BA51DEFEF5E00A03820 /* CommiSenateDetailViewController.swift */; };
+		32310BA81DEFF45200A03820 /* CommiJointDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310BA71DEFF45200A03820 /* CommiJointDetailViewController.swift */; };
+		32310BAC1DEFF7E600A03820 /* FavLegisTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310BAB1DEFF7E600A03820 /* FavLegisTableViewController.swift */; };
+		32310BAE1DEFF85900A03820 /* FavBillTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310BAD1DEFF85900A03820 /* FavBillTableViewController.swift */; };
+		32310BB01DEFFAA800A03820 /* FavCommiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310BAF1DEFFAA800A03820 /* FavCommiTableViewController.swift */; };
+		32310BB21DEFFDB500A03820 /* NaviBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32310BB11DEFFDB500A03820 /* NaviBarViewController.swift */; };
+		329163781DEE637E00183D3B /* filterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329163771DEE637E00183D3B /* filterViewController.swift */; };
+		3291637A1DEE6EFB00183D3B /* legisHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329163791DEE6EFB00183D3B /* legisHouseViewController.swift */; };
+		32B7CCF51DEE343C0039F8DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7CCF41DEE343C0039F8DE /* AppDelegate.swift */; };
+		32B7CCF71DEE343C0039F8DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7CCF61DEE343C0039F8DE /* ViewController.swift */; };
+		32B7CCFA1DEE343C0039F8DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B7CCF81DEE343C0039F8DE /* Main.storyboard */; };
+		32B7CCFD1DEE343C0039F8DE /* hw9.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32B7CCFB1DEE343C0039F8DE /* hw9.xcdatamodeld */; };
+		32B7CCFF1DEE343C0039F8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B7CCFE1DEE343C0039F8DE /* Assets.xcassets */; };
+		32B7CD021DEE343C0039F8DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B7CD001DEE343C0039F8DE /* LaunchScreen.storyboard */; };
+		32B7CD0A1DEE35D20039F8DE /* LegisStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7CD091DEE35D20039F8DE /* LegisStateViewController.swift */; };
+		32C2ADB81DF0255D00850235 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C2ADB71DF0255D00850235 /* CustomSearchController.swift */; };
+		32C83FBE1DF0536400444ABA /* FavLegisDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C83FBD1DF0536400444ABA /* FavLegisDetailViewController.swift */; };
+		32C83FC01DF0610B00444ABA /* FavBillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C83FBF1DF0610B00444ABA /* FavBillDetailViewController.swift */; };
+		32C83FC21DF0688000444ABA /* FavCommiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C83FC11DF0688000444ABA /* FavCommiDetailViewController.swift */; };
+		32C83FC41DF078E400444ABA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C83FC31DF078E400444ABA /* AboutViewController.swift */; };
+		32DBEDD81DEE986300B1F0C1 /* LegisSenateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDD71DEE986300B1F0C1 /* LegisSenateViewController.swift */; };
+		32DBEDDA1DEE9B0800B1F0C1 /* ActiveBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDD91DEE9B0800B1F0C1 /* ActiveBillViewController.swift */; };
+		32DBEDDC1DEEA20B00B1F0C1 /* BillViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDDB1DEEA20B00B1F0C1 /* BillViewCell.swift */; };
+		32DBEDE01DEEACD000B1F0C1 /* NewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDDF1DEEACD000B1F0C1 /* NewBillViewController.swift */; };
+		32DBEDE21DEEB3AC00B1F0C1 /* HouseCommitteeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDE11DEEB3AC00B1F0C1 /* HouseCommitteeViewController.swift */; };
+		32DBEDE41DEEE1CE00B1F0C1 /* SenateCommitteeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDE31DEEE1CE00B1F0C1 /* SenateCommitteeViewController.swift */; };
+		32DBEDE61DEEE2A000B1F0C1 /* JointCommitteeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDE51DEEE2A000B1F0C1 /* JointCommitteeViewController.swift */; };
+		32DBEDEA1DEEEEA800B1F0C1 /* LegisDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDE91DEEEEA800B1F0C1 /* LegisDetailViewController.swift */; };
+		32DBEDEC1DEF0DAE00B1F0C1 /* LegisHouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DBEDEB1DEF0DAE00B1F0C1 /* LegisHouseDetailViewController.swift */; };
+		C870FB15335E5ACFDFAF89BF /* Pods_hw9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB21DC84007F5B8EB64411D4 /* Pods_hw9.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DF61E468C1C0E44511D54C9 /* Pods-hw9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw9.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hw9/Pods-hw9.debug.xcconfig"; sourceTree = "<group>"; };
+		1B07D2FF8BA96EA99FE44779 /* Pods-hw9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw9.release.xcconfig"; path = "Pods/Target Support Files/Pods-hw9/Pods-hw9.release.xcconfig"; sourceTree = "<group>"; };
+		32310B9D1DEFA5D300A03820 /* LegisSenateDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegisSenateDetailViewController.swift; sourceTree = "<group>"; };
+		32310B9F1DEFA86600A03820 /* BillActiveDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillActiveDetailViewController.swift; sourceTree = "<group>"; };
+		32310BA11DEFC36100A03820 /* BillNewDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillNewDetailViewController.swift; sourceTree = "<group>"; };
+		32310BA31DEFE88400A03820 /* CommiHouseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommiHouseDetailViewController.swift; sourceTree = "<group>"; };
+		32310BA51DEFEF5E00A03820 /* CommiSenateDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommiSenateDetailViewController.swift; sourceTree = "<group>"; };
+		32310BA71DEFF45200A03820 /* CommiJointDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommiJointDetailViewController.swift; sourceTree = "<group>"; };
+		32310BAB1DEFF7E600A03820 /* FavLegisTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavLegisTableViewController.swift; sourceTree = "<group>"; };
+		32310BAD1DEFF85900A03820 /* FavBillTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavBillTableViewController.swift; sourceTree = "<group>"; };
+		32310BAF1DEFFAA800A03820 /* FavCommiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavCommiTableViewController.swift; sourceTree = "<group>"; };
+		32310BB11DEFFDB500A03820 /* NaviBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviBarViewController.swift; sourceTree = "<group>"; };
+		329163771DEE637E00183D3B /* filterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filterViewController.swift; sourceTree = "<group>"; };
+		329163791DEE6EFB00183D3B /* legisHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = legisHouseViewController.swift; sourceTree = "<group>"; };
+		32B7CCF11DEE343C0039F8DE /* hw9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw9.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B7CCF41DEE343C0039F8DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32B7CCF61DEE343C0039F8DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32B7CCF91DEE343C0039F8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32B7CCFC1DEE343C0039F8DE /* hw9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hw9.xcdatamodel; sourceTree = "<group>"; };
+		32B7CCFE1DEE343C0039F8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B7CD011DEE343C0039F8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32B7CD031DEE343C0039F8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B7CD091DEE35D20039F8DE /* LegisStateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegisStateViewController.swift; sourceTree = "<group>"; };
+		32C2ADB71DF0255D00850235 /* CustomSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
+		32C83FBD1DF0536400444ABA /* FavLegisDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavLegisDetailViewController.swift; sourceTree = "<group>"; };
+		32C83FBF1DF0610B00444ABA /* FavBillDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavBillDetailViewController.swift; sourceTree = "<group>"; };
+		32C83FC11DF0688000444ABA /* FavCommiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavCommiDetailViewController.swift; sourceTree = "<group>"; };
+		32C83FC31DF078E400444ABA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		32DBEDD71DEE986300B1F0C1 /* LegisSenateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegisSenateViewController.swift; sourceTree = "<group>"; };
+		32DBEDD91DEE9B0800B1F0C1 /* ActiveBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveBillViewController.swift; sourceTree = "<group>"; };
+		32DBEDDB1DEEA20B00B1F0C1 /* BillViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillViewCell.swift; sourceTree = "<group>"; };
+		32DBEDDF1DEEACD000B1F0C1 /* NewBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBillViewController.swift; sourceTree = "<group>"; };
+		32DBEDE11DEEB3AC00B1F0C1 /* HouseCommitteeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseCommitteeViewController.swift; sourceTree = "<group>"; };
+		32DBEDE31DEEE1CE00B1F0C1 /* SenateCommitteeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenateCommitteeViewController.swift; sourceTree = "<group>"; };
+		32DBEDE51DEEE2A000B1F0C1 /* JointCommitteeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JointCommitteeViewController.swift; sourceTree = "<group>"; };
+		32DBEDE91DEEEEA800B1F0C1 /* LegisDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegisDetailViewController.swift; sourceTree = "<group>"; };
+		32DBEDEB1DEF0DAE00B1F0C1 /* LegisHouseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegisHouseDetailViewController.swift; sourceTree = "<group>"; };
+		FB21DC84007F5B8EB64411D4 /* Pods_hw9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hw9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B7CCEE1DEE343C0039F8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C870FB15335E5ACFDFAF89BF /* Pods_hw9.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B7CCE81DEE343B0039F8DE = {
+			isa = PBXGroup;
+			children = (
+				32B7CCF31DEE343C0039F8DE /* hw9 */,
+				32B7CCF21DEE343C0039F8DE /* Products */,
+				64DC31843F8F8F5481E08898 /* Pods */,
+				7A12AA6EC17240B9F12B69E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32B7CCF21DEE343C0039F8DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B7CCF11DEE343C0039F8DE /* hw9.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B7CCF31DEE343C0039F8DE /* hw9 */ = {
+			isa = PBXGroup;
+			children = (
+				32B7CCF41DEE343C0039F8DE /* AppDelegate.swift */,
+				32310BB11DEFFDB500A03820 /* NaviBarViewController.swift */,
+				32B7CCF61DEE343C0039F8DE /* ViewController.swift */,
+				32B7CD091DEE35D20039F8DE /* LegisStateViewController.swift */,
+				32B7CCF81DEE343C0039F8DE /* Main.storyboard */,
+				32C83FC31DF078E400444ABA /* AboutViewController.swift */,
+				32C83FC11DF0688000444ABA /* FavCommiDetailViewController.swift */,
+				32C83FBF1DF0610B00444ABA /* FavBillDetailViewController.swift */,
+				32310BAF1DEFFAA800A03820 /* FavCommiTableViewController.swift */,
+				32310BAD1DEFF85900A03820 /* FavBillTableViewController.swift */,
+				32310BA71DEFF45200A03820 /* CommiJointDetailViewController.swift */,
+				32310BA51DEFEF5E00A03820 /* CommiSenateDetailViewController.swift */,
+				32310BA31DEFE88400A03820 /* CommiHouseDetailViewController.swift */,
+				32310BA11DEFC36100A03820 /* BillNewDetailViewController.swift */,
+				32310B9F1DEFA86600A03820 /* BillActiveDetailViewController.swift */,
+				32310B9D1DEFA5D300A03820 /* LegisSenateDetailViewController.swift */,
+				32DBEDEB1DEF0DAE00B1F0C1 /* LegisHouseDetailViewController.swift */,
+				32DBEDDB1DEEA20B00B1F0C1 /* BillViewCell.swift */,
+				329163791DEE6EFB00183D3B /* legisHouseViewController.swift */,
+				329163771DEE637E00183D3B /* filterViewController.swift */,
+				32B7CCFE1DEE343C0039F8DE /* Assets.xcassets */,
+				32B7CD001DEE343C0039F8DE /* LaunchScreen.storyboard */,
+				32B7CD031DEE343C0039F8DE /* Info.plist */,
+				32B7CCFB1DEE343C0039F8DE /* hw9.xcdatamodeld */,
+				32DBEDD71DEE986300B1F0C1 /* LegisSenateViewController.swift */,
+				32DBEDD91DEE9B0800B1F0C1 /* ActiveBillViewController.swift */,
+				32DBEDDF1DEEACD000B1F0C1 /* NewBillViewController.swift */,
+				32DBEDE11DEEB3AC00B1F0C1 /* HouseCommitteeViewController.swift */,
+				32DBEDE31DEEE1CE00B1F0C1 /* SenateCommitteeViewController.swift */,
+				32DBEDE51DEEE2A000B1F0C1 /* JointCommitteeViewController.swift */,
+				32DBEDE91DEEEEA800B1F0C1 /* LegisDetailViewController.swift */,
+				32310BAB1DEFF7E600A03820 /* FavLegisTableViewController.swift */,
+				32C2ADB71DF0255D00850235 /* CustomSearchController.swift */,
+				32C83FBD1DF0536400444ABA /* FavLegisDetailViewController.swift */,
+			);
+			path = hw9;
+			sourceTree = "<group>";
+		};
+		64DC31843F8F8F5481E08898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DF61E468C1C0E44511D54C9 /* Pods-hw9.debug.xcconfig */,
+				1B07D2FF8BA96EA99FE44779 /* Pods-hw9.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A12AA6EC17240B9F12B69E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB21DC84007F5B8EB64411D4 /* Pods_hw9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B7CCF01DEE343C0039F8DE /* hw9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B7CD061DEE343C0039F8DE /* Build configuration list for PBXNativeTarget "hw9" */;
+			buildPhases = (
+				DB44B3FC40DFFBB6D2ECA966 /* [CP] Check Pods Manifest.lock */,
+				32B7CCED1DEE343C0039F8DE /* Sources */,
+				32B7CCEE1DEE343C0039F8DE /* Frameworks */,
+				32B7CCEF1DEE343C0039F8DE /* Resources */,
+				05EA7C28F803B0093F9C2BDA /* [CP] Embed Pods Frameworks */,
+				FE975C3D47CB300331B2C2F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hw9;
+			productName = hw9;
+			productReference = 32B7CCF11DEE343C0039F8DE /* hw9.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B7CCE91DEE343B0039F8DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ChenQianlan;
+				TargetAttributes = {
+					32B7CCF01DEE343C0039F8DE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 32B7CCEC1DEE343B0039F8DE /* Build configuration list for PBXProject "hw9" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B7CCE81DEE343B0039F8DE;
+			productRefGroup = 32B7CCF21DEE343C0039F8DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B7CCF01DEE343C0039F8DE /* hw9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B7CCEF1DEE343C0039F8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B7CD021DEE343C0039F8DE /* LaunchScreen.storyboard in Resources */,
+				32B7CCFF1DEE343C0039F8DE /* Assets.xcassets in Resources */,
+				32B7CCFA1DEE343C0039F8DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05EA7C28F803B0093F9C2BDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hw9/Pods-hw9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB44B3FC40DFFBB6D2ECA966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE975C3D47CB300331B2C2F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hw9/Pods-hw9-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B7CCED1DEE343C0039F8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32310BAC1DEFF7E600A03820 /* FavLegisTableViewController.swift in Sources */,
+				32DBEDEA1DEEEEA800B1F0C1 /* LegisDetailViewController.swift in Sources */,
+				329163781DEE637E00183D3B /* filterViewController.swift in Sources */,
+				32B7CCFD1DEE343C0039F8DE /* hw9.xcdatamodeld in Sources */,
+				32310BA21DEFC36100A03820 /* BillNewDetailViewController.swift in Sources */,
+				32C83FC21DF0688000444ABA /* FavCommiDetailViewController.swift in Sources */,
+				32DBEDEC1DEF0DAE00B1F0C1 /* LegisHouseDetailViewController.swift in Sources */,
+				32C83FBE1DF0536400444ABA /* FavLegisDetailViewController.swift in Sources */,
+				32DBEDE01DEEACD000B1F0C1 /* NewBillViewController.swift in Sources */,
+				3291637A1DEE6EFB00183D3B /* legisHouseViewController.swift in Sources */,
+				32310B9E1DEFA5D300A03820 /* LegisSenateDetailViewController.swift in Sources */,
+				32310BA41DEFE88400A03820 /* CommiHouseDetailViewController.swift in Sources */,
+				32310BA81DEFF45200A03820 /* CommiJointDetailViewController.swift in Sources */,
+				32310BB21DEFFDB500A03820 /* NaviBarViewController.swift in Sources */,
+				32DBEDE41DEEE1CE00B1F0C1 /* SenateCommitteeViewController.swift in Sources */,
+				32310BAE1DEFF85900A03820 /* FavBillTableViewController.swift in Sources */,
+				32B7CD0A1DEE35D20039F8DE /* LegisStateViewController.swift in Sources */,
+				32310BA01DEFA86600A03820 /* BillActiveDetailViewController.swift in Sources */,
+				32C83FC41DF078E400444ABA /* AboutViewController.swift in Sources */,
+				32310BB01DEFFAA800A03820 /* FavCommiTableViewController.swift in Sources */,
+				32B7CCF71DEE343C0039F8DE /* ViewController.swift in Sources */,
+				32C2ADB81DF0255D00850235 /* CustomSearchController.swift in Sources */,
+				32DBEDE61DEEE2A000B1F0C1 /* JointCommitteeViewController.swift in Sources */,
+				32B7CCF51DEE343C0039F8DE /* AppDelegate.swift in Sources */,
+				32310BA61DEFEF5E00A03820 /* CommiSenateDetailViewController.swift in Sources */,
+				32DBEDDC1DEEA20B00B1F0C1 /* BillViewCell.swift in Sources */,
+				32DBEDD81DEE986300B1F0C1 /* LegisSenateViewController.swift in Sources */,
+				32DBEDDA1DEE9B0800B1F0C1 /* ActiveBillViewController.swift in Sources */,
+				32C83FC01DF0610B00444ABA /* FavBillDetailViewController.swift in Sources */,
+				32DBEDE21DEEB3AC00B1F0C1 /* HouseCommitteeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32B7CCF81DEE343C0039F8DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B7CCF91DEE343C0039F8DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32B7CD001DEE343C0039F8DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B7CD011DEE343C0039F8DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B7CD041DEE343C0039F8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32B7CD051DEE343C0039F8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B7CD071DEE343C0039F8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF61E468C1C0E44511D54C9 /* Pods-hw9.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hw9/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lan.hw9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		32B7CD081DEE343C0039F8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B07D2FF8BA96EA99FE44779 /* Pods-hw9.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hw9/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lan.hw9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B7CCEC1DEE343B0039F8DE /* Build configuration list for PBXProject "hw9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B7CD041DEE343C0039F8DE /* Debug */,
+				32B7CD051DEE343C0039F8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B7CD061DEE343C0039F8DE /* Build configuration list for PBXNativeTarget "hw9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B7CD071DEE343C0039F8DE /* Debug */,
+				32B7CD081DEE343C0039F8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32B7CCFB1DEE343C0039F8DE /* hw9.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32B7CCFC1DEE343C0039F8DE /* hw9.xcdatamodel */,
+			);
+			currentVersion = 32B7CCFC1DEE343C0039F8DE /* hw9.xcdatamodel */;
+			path = hw9.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32B7CCE91DEE343B0039F8DE /* Project object */;
+}
